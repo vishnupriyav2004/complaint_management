@@ -4,7 +4,7 @@ This project is a Java-based application with a graphical user interface (GUI) t
 Features:
 Submit Complaint: Users can submit a complaint by entering their ID, User ID, Username, and Complaint Details. The complaint is stored in the ComplaintsIssued table.
 Resolve Complaint: Users can resolve a complaint by entering the Complaint ID. The resolved complaint is moved from the ComplaintsIssued table to the ComplaintsSolved table.
-
+To view: the registered user in manager table by providing username and password to view the solved and unsloved complaints
 Technologies Used:
 Java: The application is developed using Java with Swing for the GUI.
 Oracle Database: Oracle Database is used to store and manage complaint records.
