@@ -55,7 +55,7 @@ public class ComplaintManagementSystem extends JFrame {
         // Establish database connection
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "vishnu");
+            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "username", "password");
         } catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Error connecting to the database.", "Error", JOptionPane.ERROR_MESSAGE);
