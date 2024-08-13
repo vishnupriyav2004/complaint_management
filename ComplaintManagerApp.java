@@ -12,7 +12,7 @@ public class ComplaintManagerApp extends JFrame {
     public static void main(String[] args) {
         // Establish the database connection
         try {
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "vishnu");
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "username", "password");
         } catch (SQLException e) {
             e.printStackTrace();
             return;
